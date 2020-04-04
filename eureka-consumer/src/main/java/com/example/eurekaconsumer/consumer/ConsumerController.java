@@ -37,6 +37,14 @@ public class ConsumerController {
         String response = responseEntity.getBody();
         System.out.println(response);
 
+        responseEntity = restTemplate.postForEntity("http://SERVICE-CLIENT/timeout", requestBody, String.class);
+        response = responseEntity.getBody();
+        System.out.println(response);
+
+        responseEntity = restTemplate.postForEntity("http://SERVICE-CLIENT/fall", requestBody, String.class);
+        response = responseEntity.getBody();
+        System.out.println(response);
+
         return response;
     }
 
