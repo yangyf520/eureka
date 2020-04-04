@@ -7,3 +7,10 @@ server:
 spring:
   application:
     name: service-client
+
+#暴露全部的监控信息
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
