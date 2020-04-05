@@ -21,6 +21,7 @@ public class ConsumerApplication {
 
     /**
      * 注意加LoadBalanced
+     *
      * @param builder
      * @return
      */
