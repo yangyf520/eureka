@@ -1,4 +1,4 @@
-package com.example.eurekaConsumer;
+package com.eureka.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.example.eurekaConsumer;
+package com.eureka.consumer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;

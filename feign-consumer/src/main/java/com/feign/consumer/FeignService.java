@@ -1,4 +1,4 @@
-package com.example.feign;
+package com.feign.consumer;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;

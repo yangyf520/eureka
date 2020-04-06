@@ -1,12 +1,21 @@
+#eureka服务器地址
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8000/eureka/
+
+#本服务端口号
 server:
   port: 8001
+
+#应用名称
 spring:
   application:
     name: service-client
+
+#zipkin服务地址
+  zipkin:
+    base-url: http://localhost:9411
 
 #暴露全部的监控信息
 management:
