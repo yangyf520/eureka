@@ -2,6 +2,7 @@
 - 优先启动 eureka-server
 - 启动 eureka-client 自动注册到server
 - 启动 eureka-consumer，消费服务地址 http://SERVICE-CLIENT/timeout 
+- 启动 feign-consumer，通过feign消费服务
 
 ### eureka监控台
 http://localhost:8000

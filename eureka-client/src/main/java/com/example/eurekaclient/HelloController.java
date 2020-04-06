@@ -1,4 +1,4 @@
-package com.example.eurekaclient.demo;
+package com.example.eurekaclient;
 
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
