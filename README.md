@@ -1,3 +1,6 @@
+### 新建项目
+Spring Cloud Discovery --> Eureka Discovery Client
+
 ### Eureka搭建
 - 优先启动 eureka-server
 - 启动 eureka-client 自动注册到server
