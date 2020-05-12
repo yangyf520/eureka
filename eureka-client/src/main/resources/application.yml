@@ -13,7 +13,7 @@ spring:
   application:
     name: service-client
 
-#zipkin服务地址
+  #zipkin服务地址
   zipkin:
     base-url: http://localhost:9411
 

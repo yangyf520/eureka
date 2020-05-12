@@ -13,6 +13,7 @@ public interface FeignService {
 
     /**
      * 消费者方法
+     *
      * @param name
      * @return
      */

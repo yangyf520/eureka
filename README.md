@@ -13,6 +13,9 @@ http://localhost:8000
 ### 单独访问
 http://localhost:8001/timeout?name=forez
 
+### Feign RCP调用
+FeignService
+
 ### 链路跟踪
 http://localhost:9411/zipkin
 
